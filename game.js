@@ -74,8 +74,8 @@ var reset = function () {
     pokemonIndex = Math.round((Math.random() * ((26 - 0) + 1)));
     pokemonGen = Math.round((Math.random() * ((15 - 0) + 1)));
 	//throw the pokemon somewhere on the screen randomly
-	pokemon.x = 32 + (Math.random() * (canvas.width - 144));
-    pokemon.y = 32 + (Math.random() * (canvas.height - 144));
+	pokemon.x = 32 + (Math.random() * (canvas.width - 175));
+    pokemon.y = 32 + (Math.random() * (canvas.height - 188));
 };
 
 //update game objects
